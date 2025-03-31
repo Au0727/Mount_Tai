@@ -2,13 +2,14 @@
 
 /* 修改字体样式和大小 */
 body {
+  writing-mode:vertical-rl;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  writing-mode:vertical-rl;
 }
 
 /* 调整段落间距和行距 */
 p {
+  writing-mode:vertical-rl;
   margin-bottom: 10px;
   line-height: 1.5;
 }
@@ -18,12 +19,6 @@ p {
   background-color: #f1f1f1;
   border: 1px solid #ccc;
   padding: 10px;
-}
-
-/* 修改链接样式 */
-a {
-  color: #007bff;
-  text-decoration: none;
 }
 
 a:hover {
